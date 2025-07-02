@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<head>
+  <meta charset="UTF-8">
+  <title>MindBloon: Daily Mood Check</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   <header>
+      <h1>🌿 MindBloom</h1>
+      <p>How are you feeling today?</p>
+      <div id="theme-switcher">
+        <label for="theme=toggle">🌞 Light / Dark 🌙</label>
+        <input type="checkbox" id="theme-toggle">
+      </div>
+   </header>
+   <main>
+     <form id="checkin-form">
+        <fieldset class="mood-options">
+            <label>
+                <input type="radio" name="mood" value="😊">😊
+            </label>
+            <label>
+                <input type="radio" name="mood" value="😐">😐
+            </label>
+            <label>
+                <input type="radio" name="mood" value="😞">😞
+            </label>
+        </fieldset>
+        <label for="journal">Write something about your day:</label><br>
+        <textarea id="journal" placeholder="Type your thoughts here..."></textarea><br>
+        <button type="submit">Save Check-in</button>
+        <div message="saved-message" id="saved-msg" style="display: none;">✅ Saved!</div>
+     </form>
+     <div class="quote" id="quote-box">
+        💬 Loading quote...
+     </div>
+   </main>
+   <footer>
+     <p>Made with 💚 during Summer of Making </p>
+   </footer>
+   <script src="script.js"></script>
+</body>
