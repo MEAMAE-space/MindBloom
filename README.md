@@ -23,7 +23,7 @@ A calming, minimalist web app for journaling and daily mood check-ins. Built wit
 
 ## 🔗 Live Demo
 
-👉 [Try MindBloom in your browser](https://meamae-space.github.io/MindBloom/)
+👉 [Try MindBloom in your browser](https://meamae-space.github.io/MindBloom)
 
 ---
 
