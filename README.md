@@ -44,12 +44,6 @@ A calming, minimalist web app for journaling and daily mood check-ins. Built wit
 
 ---
 
-## 📸 Banner
-
-![MindBloom Banner](banner.png)
-
----
-
 ## 🗓 Devlog
 
 > July 1, 2025  
