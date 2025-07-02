@@ -19,6 +19,8 @@ A calming, minimalist web app for journaling and daily mood check-ins. Built wit
 - 💾 Auto-save with `localStorage`
 - 📱 Mobile-friendly + no login needed
 
+STILL UPDATING!!
+
 ---
 
 ## 🔗 Live Demo
