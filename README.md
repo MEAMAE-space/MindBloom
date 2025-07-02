@@ -1,3 +1,9 @@
+## 📸 Banner
+
+![MindBloom Banner](Banner.png)
+
+---
+
 # 🌿 MindBloom
 
 A calming, minimalist web app for journaling and daily mood check-ins. Built with HTML, CSS, and JavaScript — designed to help you pause, reflect, and grow 🌱
