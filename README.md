@@ -29,10 +29,6 @@ STILL UPDATING!!
 
 ---
 
-## 📁 File Structure
-
----
-
 ## 🚀 How It Works
 
 - Choose how you're feeling (😊 😐 😞)
@@ -41,6 +37,7 @@ STILL UPDATING!!
 - Refresh and get a random quote each time
 - Switch between light and dark modes — your choice is remembered!
 
+THE SAVE CHECK-IN IS STILL BEING WORKED ON.
 ---
 
 ## 🛠 Built With
@@ -52,17 +49,11 @@ STILL UPDATING!!
 
 ---
 
-## 🗓 Devlog
-
-> July 1, 2025  
-> First version shipped! Core features (mood tracker, journaling, theme toggle, quotes) are complete. More features like calendar tracking and data export planned for v1.1+.
-
----
 
 ## 📜 License
 
 MIT License  
-Feel free to use, modify, and share — just credit the original project!
+Feel free to use, modify, and share.
 
 ---
 
