@@ -1,92 +1,88 @@
 body {
     font-family: 'Segoe UI', sans-serif;
+    background: #eafaf0;
+    color: #2d4739;
     padding: 2rem;
-    max-width: 700px;
+    margin: 0;
+    max-width: 750px;
     margin: auto;
-    transition: background-color 0.3s, color 0.3s;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 2rem;
+main {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow:  0 0 20px rgba(45, 134, 89, 0.1);
 }
 
 h1 {
-    color: #4a7c59;
+    text-align: center;
+    color: #2d8659;
+    font-size: 2.2rem;
 }
 
-.mood-option label {
-  font-size: 2rem;
-  margin-right: 1rem;
-  cursor: pointer;
+form label {
+    font-weight: bold;
 }
 
 textarea {
     width: 100%;
-    height: 100px;
-    padding: 1rem;
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    padding: 0.6rem;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid #bbb;
+    font-family: inherit;
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin: 0.4rem 0.5rem 0 0;
 }
 
 button {
-    background-color: #4a7c59;
+    margin-top: 1rem;
+    background-color: #2d8659;
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.quote {
-    font-style: italic;
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #e6f2e6;
-    border-left: 5px solid #4a7c59;
-    border-radius: 6px;
-}
-
-footer {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 3rem;
-    color: #777;
-}
-
-.saved-message {
-    color: green;
-    margin-top: 10px;
+    padding: 0.6rem 1.2rem;
     font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-body.light-mode {
-    background-color: #f0f8ff;
-    color: #333;
+button:hover {
+    background-color: #246b4a;
 }
 
-body.dark-mode {
-    background-color: #1e1e1e;
-    color: #f0f0f0;
+section {
+    margin-top: 2rem;
+    background: #f0fdf5;
+    padding: 1rem 1.5rem;
+    border-left: 5px soild #2d8659;
+    border-radius: 12px;
 }
 
-.dark-mode textarea,
-.dar-mode input,
-.dark-mode button {
-    background-color: #333;
-    color: white;
-    border-color: #555;
+#history-log ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.dark-mode .quote {
-    background-color: #2a2a2a;
-    border-left-color: #7cfc00;
+#history-log li {
+    margin-bottom: 1rem;
+    border-bottom: 1px soild #ccead9;
+    padding-bottom: 0.5rem;
 }
 
-#theme-switcher {
+#chart-section canvas {
     margin-top: 1rem;
-    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.05);
+}
+
+#quote-box {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: #555;
 }

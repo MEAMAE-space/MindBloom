@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-</html>
 <head>
   <meta charset="UTF-8">
-  <title>MindBloon: Daily Mood Check</title>
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>MindBloon</title>
 </head>
 <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <body>
-   <header>
+  <main>
       <h1>🌿 MindBloom</h1>
-      <p>How are you feeling today?</p>
-      <div id="theme-switcher">
-        <label for="theme=toggle">🌞 Light / Dark 🌙</label>
-        <input type="checkbox" id="theme-toggle">
-      </div>
-   </header>
-   <main>
+      <p>A mindful app to track your moods and thoughts daily.</p>
      <form id="checkin-form">
-        <fieldset class="mood-options">
-            <label>
-                <input type="radio" name="mood" value="😊">😊
-            </label>
-            <label>
-                <input type="radio" name="mood" value="😐">😐
-            </label>
-            <label>
-                <input type="radio" name="mood" value="😞">😞
-            </label>
-        </fieldset>
-        <label for="journal">Write something about your day:</label><br>
-        <textarea id="journal" placeholder="Type your thoughts here..."></textarea><br>
+            <label>How are you feeling today?</label><br>
+                <input type="radio" name="mood" value="😊" required> 😊
+                <input type="radio" name="mood" value="😐"> 😐
+                <input type="radio" name="mood" value="😞"> 😞<br><br>
+        <label for="journal">Write your journal:</label><br>
+        <textarea id="journal" rows="4" placeholder="Reflect here..."></textarea><br><br>
         <button type="submit">Save Check-in</button>
-        <div message="saved-message" id="saved-msg" style="display: none;">✅ Saved!</div>
      </form>
-     <div class="quote" id="quote-box">
-        💬 Loading quote...
-     </div>
+     <section id="Check-in">
+      <h3>📝 Last Check-in</h3>
+      <p><strong>Date: </strong> <span id="saved-date">—</span></p>
+      <p><strong>Mood: </strong> <span id="saved-mood">—</span></p>
+      <p><strong>Journal: </strong></p>
+      <p id="saved-journal">—</p>
+     </section>
+     <section id="history-log">
+       <h3>📚 Entry History</h3>
+       <ul id="history-list"></ul>
+     </section>
+     <section id="chart-section">
+       <h3>📊 Mood Trends (Last 7 days)</h3>
+      <canvas id="moodChart" width="400" height="200"></canvas>
+     </section>
+     <section id="quote-section">
+      <h3>💬 Todays Quote</h3>
+      <p id="quote-box">Loading...</p>
+     </section>
    </main>
-   <footer>
-     <p>Made with 💚 during Summer of Making </p>
-   </footer>
    <script src="script.js"></script>
 </body>
+</html>
