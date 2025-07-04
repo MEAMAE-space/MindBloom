@@ -12,14 +12,14 @@ A calming, minimalist web app for journaling and daily mood check-ins. Built wit
 
 ## ✨ Features
 
-- 😊 Mood tracker (happy, neutral, sad)
-- 📓 Daily journal input
-- 💬 Random motivational quotes
-- 🌗 Light & dark theme toggle
-- 💾 Auto-save with `localStorage`
-- 📱 Mobile-friendly + no login needed
-
-STILL UPDATING!!
+- 😊 Mood tracker (happy, neutral, sad).
+- 📓 Daily journal input.
+- 💬 Random motivational quotes.
+- 📚 Entry History.
+- 💾 Auto-save with `localStorage`.
+- 📱 Mobile-friendly + no login needed.
+- 📊 Mood Trends (Last 7 Days).
+- 📝 Last Check-in.
 
 ---
 
@@ -35,20 +35,8 @@ STILL UPDATING!!
 - Write a short reflection in the journal box
 - Click **Save Check-in** — it stores everything in your browser
 - Refresh and get a random quote each time
-- Switch between light and dark modes — your choice is remembered!
-
-THE SAVE CHECK-IN IS STILL BEING WORKED ON.
----
-
-## 🛠 Built With
-
-- HTML5
-- CSS3 (with dark mode)
-- Vanilla JavaScript
-- LocalStorage API
 
 ---
-
 
 ## 📜 License
 
